@@ -3,7 +3,7 @@
 
 Пример вызова компонента 
 
-$APPLICATION->IncludeComponent("zionec:addresses", ".default", array(
+$APPLICATION->IncludeComponent("zionec:restComp", ".default", array(
     "SEF_FOLDER" => "/api/",
     "HB_FIELDS" => [
         'name' => ['code' => 'UF_NAME', 'type' => 'str'],
